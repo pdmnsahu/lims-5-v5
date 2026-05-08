@@ -34,11 +34,11 @@ export default function LoginPage() {
           <div className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center">
             <FlaskConical size={20} className="text-white" />
           </div>
-          <span className="font-display text-2xl font-bold text-white">CoalLIMS</span>
+          <span className="font-display text-2xl font-bold text-white">RELIMS</span>
         </div>
         <div>
           <h1 className="font-display text-4xl font-bold text-white leading-tight mb-4">
-            Coal Testing<br />Laboratory<br />Management
+            Ravi Energie<br />Laboratory<br />Management
           </h1>
           <p className="text-brand-200 text-base leading-relaxed">
             End-to-end sample tracking, test assignment and result management for modern coal testing laboratories.
@@ -64,7 +64,7 @@ export default function LoginPage() {
         <div className="w-full max-w-md">
           <div className="lg:hidden flex items-center gap-2 mb-8">
             <FlaskConical size={22} className="text-brand-700" />
-            <span className="font-display text-xl font-bold text-gray-900">CoalLIMS</span>
+            <span className="font-display text-xl font-bold text-gray-900">RELIMS</span>
           </div>
 
           <h2 className="text-2xl font-bold text-gray-900 mb-1">Welcome back</h2>
