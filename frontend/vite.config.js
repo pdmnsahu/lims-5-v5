@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:4000',
+        target: 'https://lims-5-v5.onrender.com',
         changeOrigin: true,
       },
     },

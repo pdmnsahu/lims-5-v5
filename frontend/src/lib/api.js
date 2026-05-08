@@ -1,4 +1,4 @@
-const BASE = `http://localhost:4000/api`
+const BASE = `https://lims-5-v5.onrender.com/api`
 
 function getToken() { return localStorage.getItem('coal_lims_token'); }
 
