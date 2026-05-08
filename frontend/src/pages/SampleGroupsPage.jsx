@@ -175,7 +175,7 @@ export default function SampleGroupsPage() {
                 {/* Scanner indicator */}
                 <span className="inline-flex items-center gap-1 text-[10px] font-medium text-green-700 bg-green-50 border border-green-100 px-2 py-0.5 rounded-full">
                   <ScanLine size={10} />
-                  Barcode scanner ready — scan into the highlighted field
+                  {/* Barcode scanner ready — scan into the highlighted field */}
                 </span>
               </div>
               <button
@@ -265,7 +265,7 @@ export default function SampleGroupsPage() {
                   : `${rows.length} row${rows.length !== 1 ? 's' : ''} — start scanning`}
               </p>
               <p className="text-[10px] text-gray-400">
-                Press <kbd className="px-1 py-0.5 bg-gray-100 border border-gray-200 rounded text-gray-500 font-mono text-[9px]">Enter</kbd> after each scan to advance
+                {/* Press <kbd className="px-1 py-0.5 bg-gray-100 border border-gray-200 rounded text-gray-500 font-mono text-[9px]">Enter</kbd> after each scan to advance */}
               </p>
             </div>
           </div>
