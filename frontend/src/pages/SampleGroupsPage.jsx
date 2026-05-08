@@ -5,6 +5,7 @@ import { Table, Badge, Modal, Field, Alert, Empty } from '../shared/UI';
 import { ClipboardList, Plus, Trash2, ChevronRight, ScanLine } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 
+
 export default function SampleGroupsPage() {
   const { user }       = useAuth();
   const [groups,   setGroups]  = useState([]);
