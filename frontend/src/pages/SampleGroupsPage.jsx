@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { api } from '../lib/api';
 import { Table, Badge, Modal, Field, Alert, Empty } from '../components/shared/UI';
 import { ClipboardList, Plus, Trash2, ChevronRight, ScanLine } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from '../contexts/AuthContext'; 
 
 export default function SampleGroupsPage() {
   const { user }       = useAuth();
