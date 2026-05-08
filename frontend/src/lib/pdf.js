@@ -92,11 +92,11 @@ export async function downloadSampleReport(sample, tests) {
 
   // Top-left: small italic "Unit of …"
   T(doc, 6, false, DG); doc.setFont('helvetica','italic');
-  doc.text('Unit of CoalLIMS Laboratory', ML, y);
+  doc.text('Unit of Ravi Energie', ML, y);
 
   // Lab name — large bold
   T(doc, 15, true, K);
-  doc.text('CoalLIMS Laboratory', ML, y+7);
+  doc.text('Ravi Energie Laboratory', ML, y+7);
 
   // Top-right address block
   T(doc, 6, false, DG);
@@ -386,7 +386,7 @@ export async function downloadGroupReport(group, tests) {
   const PW=297, PH=210, ML=10, MR=PW-ML, CW=MR-ML;
 
   // Header
-  T(doc, 14, true, K); doc.text('CoalLIMS Laboratory', ML, 12);
+  T(doc, 14, true, K); doc.text('Ravi Energie Laboratory', ML, 12);
   T(doc, 8, false, DG); doc.text('GROUP ANALYSIS REPORT', MR, 12, {align:'right'});
   T(doc, 6, false, MG); doc.text(`Generated: ${dd(new Date())}`, MR, 17, {align:'right'});
   doc.setDrawColor(...K); doc.setLineWidth(0.7); doc.line(ML,20,MR,20);
@@ -434,7 +434,7 @@ export async function downloadGroupReport(group, tests) {
   doc.setFillColor(237,237,237); doc.rect(0,FY,PW,14,'F');
   doc.setDrawColor(...LG); doc.setLineWidth(0.3); doc.line(0,FY,PW,FY);
   T(doc,6,false,DG);
-  doc.text('CoalLIMS — Group Analysis Report', ML, FY+6);
+  doc.text('RELIMS — Group Analysis Report', ML, FY+6);
   doc.text('This report is computer generated.', PW/2, FY+6, {align:'center'});
   doc.text(`Generated: ${dd(new Date())}`, MR, FY+6, {align:'right'});
 
